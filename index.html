@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cesar Chavez · Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="pro.css" />
+<script src="image-slot.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav__in">
+    <a href="#top" class="nav__brand"><span class="mk">CC</span> Cesar Chavez</a>
+    <button class="nav-toggle" aria-label="Menú">☰</button>
+    <ul id="navmenu">
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="Portafolio RPG.html" class="alt">Vista RPG</a></li>
+      <li><a href="#contact">Contacto</a></li>
+      <li><button id="langBtn" class="lang-btn" type="button" aria-label="Switch language">EN</button></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero wrap" id="top" data-screen-label="Hero">
+  <div class="hero__grid">
+    <div class="reveal">
+      <span class="eyebrow">Full Stack Developer</span>
+      <h1>Cesar <span class="accent">Chavez Zamorano</span></h1>
+      <div class="role">.NET Core · .NET Framework · SQL Server · Oracle</div>
+      <p class="summary">
+        Experiencia en desarrollo de software, integración de servicios web y administración de
+        bases de datos. Poseo una fuerte pasión por las tecnologías emergentes y la programación.
+        Me considero una persona ambiciosa con una aptitud natural para el aprendizaje rápido y la
+        superación personal. Mi enfoque radica en el desarrollo de software, configuración y
+        administración de redes. Tengo un gran interés en el aprendizaje continuo en diversos
+        dominios, resolver desafíos complejos y la dedicación a contribuir al éxito de los proyectos
+        a través del trabajo en equipo y el logro de resultados beneficiosos.
+      </p>
+      <div class="badges">
+        <span class="pill">C#</span><span class="pill">.NET Core</span><span class="pill">.NET Framework</span><span class="pill">SQL Server</span>
+        <span class="pill">Oracle</span><span class="pill">JavaScript</span><span class="pill">Telerik</span>
+      </div>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#projects">Ver proyectos</a>
+        <a class="btn btn--ghost" href="https://github.com/CesarChv" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="hero__photo reveal">
+      <image-slot id="pro-avatar" placeholder="Suelta tu foto"></image-slot>
+    </div>
+  </div>
+</header>
+
+<!-- SKILLS -->
+<section id="skills" class="wrap" data-screen-label="Skills">
+  <div class="reveal"><span class="eyebrow">Stack técnico</span><h2 class="sec-title">Habilidades</h2></div>
+  <div class="skills-grid">
+
+    <div class="card skill-card reveal">
+      <h3><span class="dot" style="background:var(--accent)"></span>Backend</h3>
+      <div class="sub">Lenguajes &amp; Servidor</div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">C#</span></div><div class="s-track"><span class="s-fill" data-pct="92" style="background:var(--accent)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">.NET Framework</span></div><div class="s-track"><span class="s-fill" data-pct="90" style="background:var(--accent)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">ASP.NET (Web Forms / ASPX)</span></div><div class="s-track"><span class="s-fill" data-pct="85" style="background:var(--accent)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">.NET Core</span></div><div class="s-track"><span class="s-fill" data-pct="78" style="background:var(--accent)"></span></div></div>
+    </div>
+
+    <div class="card skill-card reveal">
+      <h3><span class="dot" style="background:var(--mint)"></span>Bases de Datos</h3>
+      <div class="sub">Persistencia &amp; SQL</div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">SQL Server</span></div><div class="s-track"><span class="s-fill" data-pct="90" style="background:var(--mint)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">SSMS</span></div><div class="s-track"><span class="s-fill" data-pct="88" style="background:var(--mint)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">Oracle</span></div><div class="s-track"><span class="s-fill" data-pct="82" style="background:var(--mint)"></span></div></div>
+    </div>
+
+    <div class="card skill-card reveal">
+      <h3><span class="dot" style="background:var(--lav)"></span>Frontend</h3>
+      <div class="sub">Interfaces &amp; Web</div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">JavaScript</span></div><div class="s-track"><span class="s-fill" data-pct="84" style="background:var(--lav)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">HTML5</span></div><div class="s-track"><span class="s-fill" data-pct="90" style="background:var(--lav)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">CSS3</span></div><div class="s-track"><span class="s-fill" data-pct="85" style="background:var(--lav)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">Telerik (UI Framework)</span></div><div class="s-track"><span class="s-fill" data-pct="83" style="background:var(--lav)"></span></div></div>
+    </div>
+
+    <div class="card skill-card reveal">
+      <h3><span class="dot" style="background:var(--gold)"></span>Integración &amp; Herramientas</h3>
+      <div class="sub">APIs &amp; Tooling</div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">AJAX</span></div><div class="s-track"><span class="s-fill" data-pct="85" style="background:var(--gold)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">Web Services (WS)</span></div><div class="s-track"><span class="s-fill" data-pct="83" style="background:var(--gold)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">Postman</span></div><div class="s-track"><span class="s-fill" data-pct="80" style="background:var(--gold)"></span></div></div>
+      <div class="s-row"><div class="s-row__top"><span class="s-row__name">Git / GitHub</span></div><div class="s-track"><span class="s-fill" data-pct="79" style="background:var(--gold)"></span></div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="wrap" data-screen-label="Projects">
+  <div class="reveal"><span class="eyebrow">Portafolio</span><h2 class="sec-title">Proyectos destacados</h2></div>
+  <div class="proj-grid">
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">WEBICO</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Proyecto web · Hosting</div>
+        <h3 class="proj__t">WEBICO</h3>
+        <p class="proj__d">Sitio web e implementación de un hosting gratuito para la página ICO de la UAEM Zumpango.</p>
+        <div class="proj__stack"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Hosting</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/WEBICO" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">AGENTE VIAJERO</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Algoritmos · Optimización</div>
+        <h3 class="proj__t">Agente Viajero</h3>
+        <p class="proj__d">Solución al Problema del Agente Viajero (TSP) aplicando técnicas de optimización de rutas.</p>
+        <div class="proj__stack"><span class="chip">Java</span><span class="chip">TSP</span><span class="chip">Optimización</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/Agente_viajero" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">K-MEANS 3D</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Machine Learning · Clustering</div>
+        <h3 class="proj__t">K-Means 3D</h3>
+        <p class="proj__d">Algoritmo de clustering K-Means aplicado sobre conjuntos de datos en un espacio tridimensional.</p>
+        <div class="proj__stack"><span class="chip">Java</span><span class="chip">Clustering</span><span class="chip">ML</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/K-Means_3D" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">KNN</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Machine Learning · Clasificación</div>
+        <h3 class="proj__t">KNN · Prototipo</h3>
+        <p class="proj__d">Clasificador K-Nearest Neighbors para el reconocimiento y la clasificación de patrones.</p>
+        <div class="proj__stack"><span class="chip">Java</span><span class="chip">Clasificación</span><span class="chip">ML</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/KNN_prototipo" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">MEMORIA ASOCIATIVA</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Redes Neuronales · IA</div>
+        <h3 class="proj__t">Memoria Asociativa</h3>
+        <p class="proj__d">Implementación de memorias asociativas para el almacenamiento y la recuperación de patrones.</p>
+        <div class="proj__stack"><span class="chip">Java</span><span class="chip">IA</span><span class="chip">Patrones</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/Memoria_asociativa" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+    <article class="card proj reveal">
+      <div class="proj__img"><span class="ph">DATA STRUCTURES</span></div>
+      <div class="proj__b">
+        <div class="proj__tag">Estructura de Datos</div>
+        <h3 class="proj__t">Data Structures</h3>
+        <p class="proj__d">Proyecto de estructuras de datos con prácticas y ejercicios de algoritmia en Java.</p>
+        <div class="proj__stack"><span class="chip">Java</span><span class="chip">Estructuras</span><span class="chip">Algoritmos</span></div>
+        <div class="proj__foot"><span class="proj__status ps-done">● Público</span><a class="proj__link" href="https://github.com/CesarChv/2doParDS22B" target="_blank" rel="noopener">Ver repo →</a></div>
+      </div>
+    </article>
+
+  </div>
+  <div style="text-align:center; margin-top:24px;">
+    <a class="btn btn--ghost" href="https://github.com/CesarChv?tab=repositories" target="_blank" rel="noopener">Ver todos los repos ↗</a>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="wrap" data-screen-label="Experience">
+  <div class="reveal"><span class="eyebrow">Trayectoria</span><h2 class="sec-title">Experiencia</h2></div>
+  <div class="card reveal" style="padding:32px 34px;">
+    <div class="tl">
+      <div class="tl-node">
+        <div class="when">jun. 2024 — Actualidad · 2 años 1 mes</div>
+        <div class="role">Desarrollador Web</div>
+        <div class="org">MC COLLECT · Jornada completa · Presencial</div>
+        <p class="desc">Desarrollo y mantenimiento de aplicaciones web en Ciudad de México. Trabajo con Git, CSS y otras tecnologías del stack, colaborando en proyectos internos de la empresa.</p>
+      </div>
+      <div class="tl-node">
+        <div class="when">abr. 2024 — jun. 2024 · 3 meses</div>
+        <div class="role">Becario de Ingeniería de Software</div>
+        <div class="org">MC COLLECT · Jornada parcial</div>
+        <p class="desc">Prácticas en ingeniería de software, apoyando en el desarrollo y la mejora de sistemas internos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="wrap" data-screen-label="Contact">
+  <div class="card contact reveal">
+    <span class="eyebrow">Trabajemos juntos</span>
+    <h2>¿Listo para tu próximo proyecto?</h2>
+    <p>Estoy disponible para nuevos proyectos y oportunidades. Si buscas un Full Stack Developer para tu equipo, hablemos.</p>
+    <div class="links">
+      <a class="clink" href="https://github.com/CesarChv" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.6c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.6C24 5.9 18.6.5 12 .5z"/></svg>
+        GitHub
+      </a>
+      <a class="clink" href="https://www.linkedin.com/in/cesar-chavez-0b449b296/?skipRedirect=true" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.3a1.7 1.7 0 110-3.5 1.7 1.7 0 010 3.5zM19 19h-3v-4.7c0-1.1 0-2.5-1.5-2.5S13 13 13 14.2V19h-3v-9h2.9v1.2h.04a3.2 3.2 0 012.9-1.6c3.1 0 3.66 2 3.66 4.7z"/></svg>
+        LinkedIn
+      </a>
+      <a class="clink" href="/cdn-cgi/l/email-protection#0467617765765b676c72353d446b7170686b6b6f2a676b69">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Cesar Chavez Zamorano · Full Stack Developer</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+(function () {
+  "use strict";
+  var revealEls = document.querySelectorAll(".reveal");
+  var fills = document.querySelectorAll(".s-fill");
+  function fillBar(el) { if (el.dataset.done) return; var p = el.getAttribute("data-pct"); if (p) { el.style.width = p + "%"; el.dataset.done = "1"; } }
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); e.target.querySelectorAll && e.target.querySelectorAll(".s-fill").forEach(fillBar); io.unobserve(e.target); } });
+    }, { threshold: 0.16, rootMargin: "0px 0px -40px 0px" });
+    revealEls.forEach(function (el) { io.observe(el); });
+    var ioB = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) { fillBar(e.target); ioB.unobserve(e.target); } }); }, { threshold: 0.4 });
+    fills.forEach(function (el) { ioB.observe(el); });
+  } else { revealEls.forEach(function (el) { el.classList.add("in"); }); fills.forEach(fillBar); }
+  var tg = document.querySelector(".nav-toggle"), mn = document.getElementById("navmenu");
+  if (tg && mn) { tg.addEventListener("click", function () { mn.classList.toggle("open"); }); mn.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { mn.classList.remove("open"); }); }); }
+})();
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>
